@@ -1,38 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #2b2b2b;
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f2eee9;
 }
 
-.card {
-    width: 90%;
-    height: 80vh;
-    border-radius: 30px;
-    background: #212121;
-    box-shadow: 15px 15px 30px rgb(25, 25, 25),
-            -15px -15px 30px rgb(60, 60, 60);
-}
-
-  .welcome-mat {
-    width: 80%;
-    padding: 30px;
-    border: 10px solid #333;
-    background-color: #ffcc00;
-    color: #333;
-    font-size: 2em;
-    font-weight: bold;
+.row{
     text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    text-transform: uppercase;
-  }
+}
 
-  .welcome-mat:hover {
-    background-color: #ff9900;
-    transform: scale(1.05);
-    transition: background-color 0.3s, transform 0.3s;
-  }
+.header{
+    font-family: "Caveat Brush", serif;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.mt--3{
+    margin-top: -6%;
+}
+
+.color-green{
+    color: #527b55;
+}
+
+.color-yello{
+    color: #e79627;
+}
+
+p{
+    color: #527b55;
+    font-size: 2rem;
+}
+
+.name{
+    font-family: "Mansalva", serif;
+    font-size: 2rem;
+}
